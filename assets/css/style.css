@@ -2,3 +2,9 @@ h1{
     margin: 20px;
     padding-bottom: 50px;
 }
+body{
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
