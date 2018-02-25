@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,71 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Crystal Collector</h1>
+            </div>
+        </div>
+    </div>
 
 
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="instructions">
+                    <h3>Here's how you play the game</h3>
+                    
+                    <p>You will be given a random number at the start of the game which shows up in the "Number To Get:" field.</p>
+               
+                <p>There are four crystals below and when you click them, they will add a specific amount of points to your total score.</p>
+          
+            <p>To win the game, you need to match your total score to the random number that's generated.  If your total goes above the randon number, you lose.</p>
+        
+        <p>The value of each crystal is hidden from you until you click on it and will change each time the game loads.</p>
+                </div>
+            </div>
+        <div class="col-md-6">
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id="numberWins"></span>
+                    </br>
+                    Losses:
+                    <span id="numberLosses"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <div class="numberToMatch">
+                    <h2>Number To Get:
+                        <span id="randomNumber"></span>
+                    </h2>
+                </div>
+                <div class="userTotal">
+                        <h2>Your total score is:
+                            <span id="finalTotal"></span>
+                        </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gems text-center">
+        <img src="assets/images/bluegem.png" class=gemImage id="one" alt="Blue Gem">
+        <img src="assets/images/greengem.png" class=gemImage id="two" alt="Green Gem">
+        <img src="assets/images/redgem.png" class=gemImage id="three" alt="Red Gem">
+        <img src="assets/images/yellowgem.png" class=gemImage id="four" alt="Yellow Gem">
+    </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
