@@ -50,7 +50,7 @@ $(document).ready(function(){
   // gem click function
     $('#one').on ('click', function(){
       userTotal = userTotal + num1;
-      console.log("New userTotal= " + userTotal);
+      console.log("userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
           if (userTotal == Random){
             winner();
@@ -61,7 +61,7 @@ $(document).ready(function(){
     })  
     $('#two').on ('click', function(){
       userTotal = userTotal + num2;
-      console.log("New userTotal= " + userTotal);
+      console.log("userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
           if (userTotal == Random){
             winner();
@@ -72,7 +72,7 @@ $(document).ready(function(){
     })  
     $('#three').on ('click', function(){
       userTotal = userTotal + num3;
-      console.log("New userTotal= " + userTotal);
+      console.log("userTotal= " + userTotal);
       $('#finalTotal').text(userTotal);
             
         if (userTotal == Random){
@@ -84,7 +84,7 @@ $(document).ready(function(){
     })  
     $('#four').on ('click', function(){
       userTotal = userTotal + num4;
-      console.log("New userTotal= " + userTotal);
+      console.log("userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
         
             if (userTotal == Random){
