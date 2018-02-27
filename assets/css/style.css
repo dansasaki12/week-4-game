@@ -1,10 +1,20 @@
 h1{
     margin: 20px;
-    padding-bottom: 50px;
+    margin-bottom: 100px;
+    
 }
 body{
     background-image: url("../../assets/images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+footer{
+    padding-top: 50px;
+}
+p{
+    color: #F57D26;
+}
+.instructions{
+    background-color: lightgrey;
 }
